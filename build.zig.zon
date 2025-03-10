@@ -1,0 +1,15 @@
+.{
+    .name = .vulkan_headers,
+    .version = "1.4.310",
+    .fingerprint = 0x768d3abf38e4eab1,
+    .minimum_zig_version = "0.14.0",
+
+    .paths = .{
+        "include",
+        "tests",
+        "build.zig",
+        "build.zig.zon",
+        "update.sh",
+        "verify.sh",
+    },
+}
